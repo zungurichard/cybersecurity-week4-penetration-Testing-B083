@@ -1,3 +1,5 @@
+I was given a task to do a penetration testing on Mediroza Hospital. I first carried out Reconnaissance and footprinting using many Kali tools, including whois,whateb, nsllokup, curl,wofw00f, nmap and the results were got.
+
 └─$ whatweb medirozahospital.com 
 http://medirozahospital.com [301 Moved Permanently] Country[UNITED STATES][US], HTML5, HTTPServer[LiteSpeed], IP[199.188.201.16], LiteSpeed, RedirectLocation[https://medirozahospital.com/], Title[301 Moved Permanently][Title element contains newline(s)!], UncommonHeaders[x-turbo-charged-by]                 
 https://medirozahospital.com [403 Forbidden] Country[UNITED STATES][US], HTML5, HTTPServer[LiteSpeed], IP[199.188.201.16], LiteSpeed, PoweredBy[LiteSpeed], Title[403 Forbidden][Title element contains newline(s)!], UncommonHeaders[x-turbo-charged-by]
@@ -117,6 +119,7 @@ URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
 >>> Last update of WHOIS database: 2026-09-26T18:44:38.21Z <<<
 For more information on Whois status codes, please visit https://icann.org/epp
     
+
 └─$ nslookup medirozahospital.com 
 Server:         10.186.41.164
 Address:        10.186.41.164#53
